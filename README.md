@@ -1,4 +1,6 @@
-# Azure Virtual Desktop - Packer
+# Azure Virtual Desktop - Packer & Ansible
+
+A small repository to demonstrate how to use packer and Ansible with Azure Virtual Desktop images.
 
 ## Pre requisites
 
