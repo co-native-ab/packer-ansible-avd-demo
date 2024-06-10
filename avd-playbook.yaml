@@ -1,5 +1,5 @@
 ---
-# avd-playbook.yml
+# avd-playbook.yaml
 - name: 'Provision AVD image'
   hosts: default
   gather_facts: no
