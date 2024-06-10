@@ -1,0 +1,15 @@
+---
+# avd-playbook.yml
+- name: 'Provision AVD image'
+  hosts: default
+  gather_facts: no
+
+  tasks:
+    - name: run script
+      ansible.windows.win_shell: |
+         Write-Output "Hostname: ${ENV:ComputerName}"
+      register: script_output
+
+    - name: Debug script output
+      debug:
+        var: script_output.stdout
